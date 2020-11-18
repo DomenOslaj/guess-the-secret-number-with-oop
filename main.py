@@ -73,7 +73,13 @@ while True:
         play_game()
     elif selection.upper() == "B":
         for score_dict in get_top_scores():
-            print(str(score_dict["attempts"]) + " attempts, date: " + score_dict.get("date"))
+            result_obj = Result(attempts=score_dict.get("attempts"),
+                                player_name=score_dict.get("player_name", "Anonymous"),
+                                date=score_dict.get("date"))
+
+            print("Player: {0}, Attempts: {1}, Date: {2}".format(result_obj.player_name, result_obj.attempts,
+                                                                 result_obj.date))
+
     elif selection.upper() == "C":
         for score_dict in get_score_list():
             print(score_dict)

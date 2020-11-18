@@ -1,1 +1,1 @@
-[{"attempts": 3, "player_name": "Domen", "date": "Wednesday 18-11-2020  23:26:18"}, {"attempts": 3, "player_name": "Miha", "date": "Wednesday 18-11-2020  23:26:28"}]
+[{"attempts": 3, "player_name": "Domen", "date": "Wednesday 18-11-2020  23:26:18"}, {"attempts": 3, "player_name": "Miha", "date": "Wednesday 18-11-2020  23:26:28"}, {"attempts": 11, "player_name": "Nea", "date": "Wednesday 18-11-2020  23:32:48"}]
