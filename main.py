@@ -3,6 +3,13 @@ import json
 import datetime
 
 
+class Result:
+    def __init__(self, attempts, player_name, date):
+        self.attempts = attempts
+        self.player_name = player_name
+        self.date = date
+
+
 def play_game():
     name = input("I want to save you name, score and secret number. Could you tell me you name? ")
     secret = random.randint(1, 10)
