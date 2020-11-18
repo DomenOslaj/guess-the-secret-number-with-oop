@@ -29,8 +29,9 @@ def play_game():
             print("Congratulations! Secret number is number " + str(secret) + ".")
             print("Attempts needed: {0}" .format(attempts))    # format method to join 2 strings
 
-            score_list.append({"attempts": attempts, "date": current_time, "name": name, "secret": secret,
-                               "wrong guesses": wrong_guesses})
+            result_obj = Result(attempts=attempts, player_name=name, date=current_time)
+
+            score_list.append(result_obj.__dict__)
 
             with open("score_list.txt", "w") as score_file:
                 score_file.write(json.dumps(score_list))
