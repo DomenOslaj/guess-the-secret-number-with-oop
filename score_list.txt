@@ -1,1 +1,1 @@
-[{"attempts": 3, "player_name": "Domen", "date": "Wednesday 18-11-2020  23:26:18"}, {"attempts": 3, "player_name": "Miha", "date": "Wednesday 18-11-2020  23:26:28"}, {"attempts": 11, "player_name": "Nea", "date": "Wednesday 18-11-2020  23:32:48"}]
+[{"attempts": 2, "player_name": "Jaja", "date": "Saturday 12-12-2020  22:23:32", "guess": 5}, {"attempts": 3, "player_name": "kakec", "date": "Saturday 12-12-2020  22:24:21", "guess": 3}, {"attempts": 4, "player_name": "1", "date": "Saturday 12-12-2020  22:24:31", "guess": 8}]
